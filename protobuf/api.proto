@@ -1,0 +1,10 @@
+syntax = "proto3";
+package api;
+
+import "github.com/NoahOrberg/project/protobuf/other/b.proto";
+import "hoge.proto";
+
+message M {
+    other.B b = 1;
+    Hoge hoge = 2;
+}

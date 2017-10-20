@@ -1,0 +1,8 @@
+syntax = "proto3";
+package api;
+
+import "github.com/NoahOrberg/project/other/a.proto";
+
+message Hoge {
+    other.A hoge = 1;
+}
